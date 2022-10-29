@@ -19,10 +19,10 @@ pod 'LinkRoute'
  
  `麟鹿`
 
- 
  模块间 module - protocol 解耦通信，设计借鉴 BeeHive.
  兼容web通信的 urlBind openURL 等方式，可考虑使用feedback策略.
  瘦身AppDelegate 的内容分发解耦
+ 提供协议以及路由的健康检测测试
  
 ```
 
