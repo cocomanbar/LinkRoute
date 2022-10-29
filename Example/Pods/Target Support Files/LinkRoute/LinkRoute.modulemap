@@ -1,0 +1,6 @@
+framework module LinkRoute {
+  umbrella header "LinkRoute-umbrella.h"
+
+  export *
+  module * { export * }
+}

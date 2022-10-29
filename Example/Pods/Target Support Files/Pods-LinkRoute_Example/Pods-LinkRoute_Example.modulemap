@@ -1,0 +1,6 @@
+framework module Pods_LinkRoute_Example {
+  umbrella header "Pods-LinkRoute_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

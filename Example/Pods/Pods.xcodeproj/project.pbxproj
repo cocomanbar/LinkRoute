@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F4080F9B333A05297BD42CE7DB515D /* Pods-LinkRoute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBB30F6C793661A48F2B4AF04BB7A5F /* Pods-LinkRoute_Tests-dummy.m */; };
+		0C1BB695E9116EBD23A1F8241D7F2256 /* LinkRoute+Jump.m in Sources */ = {isa = PBXBuildFile; fileRef = 313847B620DB77885B8CA5BE43B7926C /* LinkRoute+Jump.m */; };
+		0DD79111ABBE06D92C2A291AFFADEB28 /* LinkRoute+Binding.h in Headers */ = {isa = PBXBuildFile; fileRef = E06888F7901A0204F5ECCB8E26633DF3 /* LinkRoute+Binding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		199DFB410E5B80BCE97C12C1F8F85139 /* Pods-LinkRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A09BC429F800548E3CF508A9EF974 /* Pods-LinkRoute_Example-dummy.m */; };
+		1CACC88123EF4408A86DFC3E737247CF /* LinkRouteTester.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3F88417E69A20E6CEA48FBEDF0D063 /* LinkRouteTester.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4504DA0A93F95E4E2C2A599E7C813EB4 /* LinkRouteAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFB842E77BE7C6EA042DCC4CCC3CDF7 /* LinkRouteAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B02D7E75B8C7EC770D9F248C07B6613 /* LinkRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFA5BFD9D67390F8889DC67F4D61B14 /* LinkRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EED44E2183FD734CFD46A6B7D63A7C9 /* LinkRouteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE84A4CC2E85D0AF87583EB5E5B0790 /* LinkRouteProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5626FB4CAF3C683F64C6F9146A7EDE10 /* LinkRoute+Binding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B836B0D9F2DD800B1743BEA40088F9E /* LinkRoute+Binding.m */; };
+		609237F436387BD98FDB07C0C853973D /* LinkRouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B590C500945AB486614A717757FDAFA4 /* LinkRouteAnnotation.m */; };
+		67497766C8D1712D51A439F02336ED01 /* LinkRouteTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CCB863EDB6CA72C4A1E1CB0A8B0F7 /* LinkRouteTester.m */; };
+		7DEA5664340C84256B545EC63139CB88 /* LinkRoute+Exce.h in Headers */ = {isa = PBXBuildFile; fileRef = F13F488A5C2A8E714DD0882074F6F4CC /* LinkRoute+Exce.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9661EB20884A3BC5FDDD2CC52F5D1B8F /* LinkRoute+Exce.m in Sources */ = {isa = PBXBuildFile; fileRef = B49C762F1517DAB4E7BC333F436A16B6 /* LinkRoute+Exce.m */; };
+		9BE4A7B8238856AD84D92FF264158DB3 /* LinkRoute+Jump.h in Headers */ = {isa = PBXBuildFile; fileRef = 2367BB25960FF7E27D024C1629F4A21D /* LinkRoute+Jump.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1579FD144A57C236251A0661715A752 /* LinkRouteWrapBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F94C872681F7D71CD2C1D4293C745D /* LinkRouteWrapBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A684A39AEC4DC9A16A79DB6B2112EFC6 /* LinkRouteTestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC09583C1B08175552FCC2C59BF8BFB /* LinkRouteTestProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD1275B3C6CABEB69147DE6B5F2228D4 /* LinkRouteHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A32B2BB9221004D3E3DE4CC12D8EC6 /* LinkRouteHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF390D27C2ACB66986DD5C4F46F89566 /* LinkRouteWrapBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C72BA161B80AABF45B88BD0D254D03E /* LinkRouteWrapBlock.m */; };
+		DA864440D5934FBB2B84EC499D39421C /* LinkRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072C2F7D7378C4C9EE9B8764302DF73 /* LinkRoute.m */; };
+		F33C9A23226EEF7527CD248ED4CF65B1 /* LinkRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FB89DDFADC7E6F93E425C6FC7AE80 /* LinkRoute-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12AE3133976DBE6F2B7E813D44CD5260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBD75E9F8D52BD960E4B80CBED40822;
+			remoteInfo = LinkRoute;
+		};
+		B157D648CFDE23DACE0692210506A0C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1EF3CF936E986B6F60D24767C4F98A9;
+			remoteInfo = "Pods-LinkRoute_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0599852AF47AFB2043C605987C29FFE7 /* Pods-LinkRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinkRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		065A09BC429F800548E3CF508A9EF974 /* Pods-LinkRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinkRoute_Example-dummy.m"; sourceTree = "<group>"; };
+		06EF508E277F9E67149E66E5E007B48D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1072C2F7D7378C4C9EE9B8764302DF73 /* LinkRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkRoute.m; path = LinkRoute/Classes/LinkRoute.m; sourceTree = "<group>"; };
+		1CC09583C1B08175552FCC2C59BF8BFB /* LinkRouteTestProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkRouteTestProtocol.h; path = LinkRoute/Classes/LinkRouteTestProtocol.h; sourceTree = "<group>"; };
+		2367BB25960FF7E27D024C1629F4A21D /* LinkRoute+Jump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LinkRoute+Jump.h"; path = "LinkRoute/Classes/LinkRoute+Jump.h"; sourceTree = "<group>"; };
+		2B836B0D9F2DD800B1743BEA40088F9E /* LinkRoute+Binding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LinkRoute+Binding.m"; path = "LinkRoute/Classes/LinkRoute+Binding.m"; sourceTree = "<group>"; };
+		313847B620DB77885B8CA5BE43B7926C /* LinkRoute+Jump.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LinkRoute+Jump.m"; path = "LinkRoute/Classes/LinkRoute+Jump.m"; sourceTree = "<group>"; };
+		358F2285A43359395B9F4FA62A5F04A3 /* Pods-LinkRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinkRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		50F94C872681F7D71CD2C1D4293C745D /* LinkRouteWrapBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkRouteWrapBlock.h; path = LinkRoute/Classes/LinkRouteWrapBlock.h; sourceTree = "<group>"; };
+		59A32B2BB9221004D3E3DE4CC12D8EC6 /* LinkRouteHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkRouteHeader.h; path = LinkRoute/Classes/LinkRouteHeader.h; sourceTree = "<group>"; };
+		5A2CCB863EDB6CA72C4A1E1CB0A8B0F7 /* LinkRouteTester.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkRouteTester.m; path = LinkRoute/Classes/LinkRouteTester.m; sourceTree = "<group>"; };
+		60AC07738FDAB371D964F36188388DCC /* Pods-LinkRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinkRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC9D9A01533EF00C7DE1B8D73AC047A /* LinkRoute */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = LinkRoute; path = libLinkRoute.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8FD4CF7AECCF5EF52AADE359186DFE /* Pods-LinkRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinkRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C72BA161B80AABF45B88BD0D254D03E /* LinkRouteWrapBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkRouteWrapBlock.m; path = LinkRoute/Classes/LinkRouteWrapBlock.m; sourceTree = "<group>"; };
+		82479DD9B26199190D1C5A34074CD5B4 /* LinkRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinkRoute.debug.xcconfig; sourceTree = "<group>"; };
+		8326B71AAC5CA8B3613A809115A14E6D /* Pods-LinkRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinkRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8EFB842E77BE7C6EA042DCC4CCC3CDF7 /* LinkRouteAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkRouteAnnotation.h; path = LinkRoute/Classes/LinkRouteAnnotation.h; sourceTree = "<group>"; };
+		8FBB30F6C793661A48F2B4AF04BB7A5F /* Pods-LinkRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LinkRoute_Tests-dummy.m"; sourceTree = "<group>"; };
+		8FFA5BFD9D67390F8889DC67F4D61B14 /* LinkRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkRoute.h; path = LinkRoute/Classes/LinkRoute.h; sourceTree = "<group>"; };
+		910FB89DDFADC7E6F93E425C6FC7AE80 /* LinkRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinkRoute-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3B2EF4FCFCA7B8A04C01106CD4DE041 /* Pods-LinkRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LinkRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B49C762F1517DAB4E7BC333F436A16B6 /* LinkRoute+Exce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LinkRoute+Exce.m"; path = "LinkRoute/Classes/LinkRoute+Exce.m"; sourceTree = "<group>"; };
+		B590C500945AB486614A717757FDAFA4 /* LinkRouteAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LinkRouteAnnotation.m; path = LinkRoute/Classes/LinkRouteAnnotation.m; sourceTree = "<group>"; };
+		BA520E5F1870F51B1B89C108BCCBA8FD /* Pods-LinkRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LinkRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA92D2FC5D2FD4EAE224DA93F1A7915A /* Pods-LinkRoute_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-LinkRoute_Example"; path = "libPods-LinkRoute_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF5EDEF432B7F58070368BE1E68E40F /* Pods-LinkRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LinkRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C63CC39AA7D3E4D4D1A6327534442870 /* LinkRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinkRoute-prefix.pch"; sourceTree = "<group>"; };
+		D51416F69F86A4E9157038DD849ADAE9 /* Pods-LinkRoute_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-LinkRoute_Tests"; path = "libPods-LinkRoute_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3F88417E69A20E6CEA48FBEDF0D063 /* LinkRouteTester.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkRouteTester.h; path = LinkRoute/Classes/LinkRouteTester.h; sourceTree = "<group>"; };
+		E06888F7901A0204F5ECCB8E26633DF3 /* LinkRoute+Binding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LinkRoute+Binding.h"; path = "LinkRoute/Classes/LinkRoute+Binding.h"; sourceTree = "<group>"; };
+		F13F488A5C2A8E714DD0882074F6F4CC /* LinkRoute+Exce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LinkRoute+Exce.h"; path = "LinkRoute/Classes/LinkRoute+Exce.h"; sourceTree = "<group>"; };
+		F37494B2B7CB204C0305355C8D818316 /* LinkRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LinkRoute.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F85C8BABE0856F818FECAB9B64C44D45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FE36CDE3B1035FC4E925EA5EA78FC13D /* LinkRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinkRoute.release.xcconfig; sourceTree = "<group>"; };
+		FFE84A4CC2E85D0AF87583EB5E5B0790 /* LinkRouteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LinkRouteProtocol.h; path = LinkRoute/Classes/LinkRouteProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3F32E14A0D8EBC0E80E4FE61A95401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7BD6184EBD2272902AF06F357B9CD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E684B807412B2C4509971C1B158921A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E8A68568F105CBEB88FA016CCC5576 /* LinkRoute */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA5BFD9D67390F8889DC67F4D61B14 /* LinkRoute.h */,
+				1072C2F7D7378C4C9EE9B8764302DF73 /* LinkRoute.m */,
+				E06888F7901A0204F5ECCB8E26633DF3 /* LinkRoute+Binding.h */,
+				2B836B0D9F2DD800B1743BEA40088F9E /* LinkRoute+Binding.m */,
+				F13F488A5C2A8E714DD0882074F6F4CC /* LinkRoute+Exce.h */,
+				B49C762F1517DAB4E7BC333F436A16B6 /* LinkRoute+Exce.m */,
+				2367BB25960FF7E27D024C1629F4A21D /* LinkRoute+Jump.h */,
+				313847B620DB77885B8CA5BE43B7926C /* LinkRoute+Jump.m */,
+				8EFB842E77BE7C6EA042DCC4CCC3CDF7 /* LinkRouteAnnotation.h */,
+				B590C500945AB486614A717757FDAFA4 /* LinkRouteAnnotation.m */,
+				59A32B2BB9221004D3E3DE4CC12D8EC6 /* LinkRouteHeader.h */,
+				FFE84A4CC2E85D0AF87583EB5E5B0790 /* LinkRouteProtocol.h */,
+				DC3F88417E69A20E6CEA48FBEDF0D063 /* LinkRouteTester.h */,
+				5A2CCB863EDB6CA72C4A1E1CB0A8B0F7 /* LinkRouteTester.m */,
+				1CC09583C1B08175552FCC2C59BF8BFB /* LinkRouteTestProtocol.h */,
+				50F94C872681F7D71CD2C1D4293C745D /* LinkRouteWrapBlock.h */,
+				7C72BA161B80AABF45B88BD0D254D03E /* LinkRouteWrapBlock.m */,
+				A0C74AFCADB9E6B2E0BF95E8909B7205 /* Pod */,
+				E068BFA4943AEF6F23924B49DA934C1C /* Support Files */,
+			);
+			name = LinkRoute;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3A45BB8BC572AE8D933ED95FF24C71C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DC5B2110F7AEA0E0B59A84906268778 /* Pods-LinkRoute_Example */,
+				F8992149E3C3AD66EB4F7B8C6A25FB37 /* Pods-LinkRoute_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		692D98A6A6740C6E5BD6BD19FE7C82BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AC9D9A01533EF00C7DE1B8D73AC047A /* LinkRoute */,
+				BA92D2FC5D2FD4EAE224DA93F1A7915A /* Pods-LinkRoute_Example */,
+				D51416F69F86A4E9157038DD849ADAE9 /* Pods-LinkRoute_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DC5B2110F7AEA0E0B59A84906268778 /* Pods-LinkRoute_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BAF5EDEF432B7F58070368BE1E68E40F /* Pods-LinkRoute_Example-acknowledgements.markdown */,
+				358F2285A43359395B9F4FA62A5F04A3 /* Pods-LinkRoute_Example-acknowledgements.plist */,
+				065A09BC429F800548E3CF508A9EF974 /* Pods-LinkRoute_Example-dummy.m */,
+				60AC07738FDAB371D964F36188388DCC /* Pods-LinkRoute_Example.debug.xcconfig */,
+				BA520E5F1870F51B1B89C108BCCBA8FD /* Pods-LinkRoute_Example.release.xcconfig */,
+			);
+			name = "Pods-LinkRoute_Example";
+			path = "Target Support Files/Pods-LinkRoute_Example";
+			sourceTree = "<group>";
+		};
+		A0C74AFCADB9E6B2E0BF95E8909B7205 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				06EF508E277F9E67149E66E5E007B48D /* LICENSE */,
+				F37494B2B7CB204C0305355C8D818316 /* LinkRoute.podspec */,
+				F85C8BABE0856F818FECAB9B64C44D45 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B0829DEF5FB373D4C7118B5E987EB3D4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33E8A68568F105CBEB88FA016CCC5576 /* LinkRoute */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B0829DEF5FB373D4C7118B5E987EB3D4 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				692D98A6A6740C6E5BD6BD19FE7C82BB /* Products */,
+				3A45BB8BC572AE8D933ED95FF24C71C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E068BFA4943AEF6F23924B49DA934C1C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				910FB89DDFADC7E6F93E425C6FC7AE80 /* LinkRoute-dummy.m */,
+				C63CC39AA7D3E4D4D1A6327534442870 /* LinkRoute-prefix.pch */,
+				82479DD9B26199190D1C5A34074CD5B4 /* LinkRoute.debug.xcconfig */,
+				FE36CDE3B1035FC4E925EA5EA78FC13D /* LinkRoute.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LinkRoute";
+			sourceTree = "<group>";
+		};
+		F8992149E3C3AD66EB4F7B8C6A25FB37 /* Pods-LinkRoute_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0599852AF47AFB2043C605987C29FFE7 /* Pods-LinkRoute_Tests-acknowledgements.markdown */,
+				A3B2EF4FCFCA7B8A04C01106CD4DE041 /* Pods-LinkRoute_Tests-acknowledgements.plist */,
+				8FBB30F6C793661A48F2B4AF04BB7A5F /* Pods-LinkRoute_Tests-dummy.m */,
+				7B8FD4CF7AECCF5EF52AADE359186DFE /* Pods-LinkRoute_Tests.debug.xcconfig */,
+				8326B71AAC5CA8B3613A809115A14E6D /* Pods-LinkRoute_Tests.release.xcconfig */,
+			);
+			name = "Pods-LinkRoute_Tests";
+			path = "Target Support Files/Pods-LinkRoute_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B31BE455788EA809E8EBFE338F460A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7766EAED9571E8F249C693AD6E5A806 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA6FA5589FBA5A4F47214D2F27E8016 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B02D7E75B8C7EC770D9F248C07B6613 /* LinkRoute.h in Headers */,
+				0DD79111ABBE06D92C2A291AFFADEB28 /* LinkRoute+Binding.h in Headers */,
+				7DEA5664340C84256B545EC63139CB88 /* LinkRoute+Exce.h in Headers */,
+				9BE4A7B8238856AD84D92FF264158DB3 /* LinkRoute+Jump.h in Headers */,
+				4504DA0A93F95E4E2C2A599E7C813EB4 /* LinkRouteAnnotation.h in Headers */,
+				BD1275B3C6CABEB69147DE6B5F2228D4 /* LinkRouteHeader.h in Headers */,
+				4EED44E2183FD734CFD46A6B7D63A7C9 /* LinkRouteProtocol.h in Headers */,
+				1CACC88123EF4408A86DFC3E737247CF /* LinkRouteTester.h in Headers */,
+				A684A39AEC4DC9A16A79DB6B2112EFC6 /* LinkRouteTestProtocol.h in Headers */,
+				A1579FD144A57C236251A0661715A752 /* LinkRouteWrapBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2640022F2A1E4B16CAB34CF4F1340CE3 /* Pods-LinkRoute_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C16A83A316CF440E84C9906DE2D5ED /* Build configuration list for PBXNativeTarget "Pods-LinkRoute_Tests" */;
+			buildPhases = (
+				8B31BE455788EA809E8EBFE338F460A4 /* Headers */,
+				EB9A7E9FA9A92E11789DED76E291F212 /* Sources */,
+				8E684B807412B2C4509971C1B158921A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FE7CBA85B8DFE5A83B4250AA8C1AA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LinkRoute_Tests";
+			productName = "Pods-LinkRoute_Tests";
+			productReference = D51416F69F86A4E9157038DD849ADAE9 /* Pods-LinkRoute_Tests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1EF3CF936E986B6F60D24767C4F98A9 /* Pods-LinkRoute_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619283FE51395812538EFF4BAA2DF323 /* Build configuration list for PBXNativeTarget "Pods-LinkRoute_Example" */;
+			buildPhases = (
+				A7766EAED9571E8F249C693AD6E5A806 /* Headers */,
+				678F3393C2836B057C64A91EE7B22459 /* Sources */,
+				4A3F32E14A0D8EBC0E80E4FE61A95401 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71D26AA7880E1EBF6C2879EE219EC7F /* PBXTargetDependency */,
+			);
+			name = "Pods-LinkRoute_Example";
+			productName = "Pods-LinkRoute_Example";
+			productReference = BA92D2FC5D2FD4EAE224DA93F1A7915A /* Pods-LinkRoute_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFBD75E9F8D52BD960E4B80CBED40822 /* LinkRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE132D50759D9E2C22B23B683A452A /* Build configuration list for PBXNativeTarget "LinkRoute" */;
+			buildPhases = (
+				AAA6FA5589FBA5A4F47214D2F27E8016 /* Headers */,
+				21A13203D7FABC4AC295900F2D547745 /* Sources */,
+				8D7BD6184EBD2272902AF06F357B9CD8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkRoute;
+			productName = LinkRoute;
+			productReference = 6AC9D9A01533EF00C7DE1B8D73AC047A /* LinkRoute */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 692D98A6A6740C6E5BD6BD19FE7C82BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBD75E9F8D52BD960E4B80CBED40822 /* LinkRoute */,
+				B1EF3CF936E986B6F60D24767C4F98A9 /* Pods-LinkRoute_Example */,
+				2640022F2A1E4B16CAB34CF4F1340CE3 /* Pods-LinkRoute_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A13203D7FABC4AC295900F2D547745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA864440D5934FBB2B84EC499D39421C /* LinkRoute.m in Sources */,
+				5626FB4CAF3C683F64C6F9146A7EDE10 /* LinkRoute+Binding.m in Sources */,
+				9661EB20884A3BC5FDDD2CC52F5D1B8F /* LinkRoute+Exce.m in Sources */,
+				0C1BB695E9116EBD23A1F8241D7F2256 /* LinkRoute+Jump.m in Sources */,
+				F33C9A23226EEF7527CD248ED4CF65B1 /* LinkRoute-dummy.m in Sources */,
+				609237F436387BD98FDB07C0C853973D /* LinkRouteAnnotation.m in Sources */,
+				67497766C8D1712D51A439F02336ED01 /* LinkRouteTester.m in Sources */,
+				CF390D27C2ACB66986DD5C4F46F89566 /* LinkRouteWrapBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678F3393C2836B057C64A91EE7B22459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199DFB410E5B80BCE97C12C1F8F85139 /* Pods-LinkRoute_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9A7E9FA9A92E11789DED76E291F212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F4080F9B333A05297BD42CE7DB515D /* Pods-LinkRoute_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A71D26AA7880E1EBF6C2879EE219EC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LinkRoute;
+			target = DFBD75E9F8D52BD960E4B80CBED40822 /* LinkRoute */;
+			targetProxy = 12AE3133976DBE6F2B7E813D44CD5260 /* PBXContainerItemProxy */;
+		};
+		B7FE7CBA85B8DFE5A83B4250AA8C1AA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LinkRoute_Example";
+			target = B1EF3CF936E986B6F60D24767C4F98A9 /* Pods-LinkRoute_Example */;
+			targetProxy = B157D648CFDE23DACE0692210506A0C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB36850EF0EEFB89AF07A5380A4511D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82479DD9B26199190D1C5A34074CD5B4 /* LinkRoute.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LinkRoute/LinkRoute-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LinkRoute;
+				PRODUCT_NAME = LinkRoute;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		418CDA7FC51210D91F4B634B8E044B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8FD4CF7AECCF5EF52AADE359186DFE /* Pods-LinkRoute_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		440A8F26A1B200518EB61515224A2B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE36CDE3B1035FC4E925EA5EA78FC13D /* LinkRoute.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LinkRoute/LinkRoute-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LinkRoute;
+				PRODUCT_NAME = LinkRoute;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		638318BE8B07F9D6494B8B94C777087A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AC07738FDAB371D964F36188388DCC /* Pods-LinkRoute_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		717DA37172877A532B7488B5F6E8DD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA520E5F1870F51B1B89C108BCCBA8FD /* Pods-LinkRoute_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF296E92C9E329ABC02D035E01A6A580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8326B71AAC5CA8B3613A809115A14E6D /* Pods-LinkRoute_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C16A83A316CF440E84C9906DE2D5ED /* Build configuration list for PBXNativeTarget "Pods-LinkRoute_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418CDA7FC51210D91F4B634B8E044B22 /* Debug */,
+				EF296E92C9E329ABC02D035E01A6A580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619283FE51395812538EFF4BAA2DF323 /* Build configuration list for PBXNativeTarget "Pods-LinkRoute_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638318BE8B07F9D6494B8B94C777087A /* Debug */,
+				717DA37172877A532B7488B5F6E8DD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AE132D50759D9E2C22B23B683A452A /* Build configuration list for PBXNativeTarget "LinkRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB36850EF0EEFB89AF07A5380A4511D /* Debug */,
+				440A8F26A1B200518EB61515224A2B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

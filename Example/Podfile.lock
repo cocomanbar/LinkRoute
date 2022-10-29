@@ -1,0 +1,16 @@
+PODS:
+  - LinkRoute (1.0.0)
+
+DEPENDENCIES:
+  - LinkRoute (from `../`)
+
+EXTERNAL SOURCES:
+  LinkRoute:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LinkRoute: f4cc979b1ad5ad217a0150a46d61960c4953754a
+
+PODFILE CHECKSUM: dda0f9ab821df34e1dd985aa5e6b9272f8852009
+
+COCOAPODS: 1.11.3

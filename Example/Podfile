@@ -1,0 +1,11 @@
+platform :ios, '10.0'
+
+target 'LinkRoute_Example' do
+  pod 'LinkRoute', :path => '../'
+
+  target 'LinkRoute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
